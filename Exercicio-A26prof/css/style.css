@@ -26,6 +26,10 @@ body {
   border-radius: 10px;
 }
 
+.container .resultado{
+  padding: 1em 1em 1em 0;
+}
+
 form input, form label, form button {
   display: block;
   width: 100%;
