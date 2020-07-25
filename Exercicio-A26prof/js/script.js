@@ -13,7 +13,7 @@ function recebeEventoForm(evento){
 
     let IMC = peso / (altura**2 );
 
-    resultado.innerHTML += `<strong>IMC:</strong> ${IMC.toFixed(2)} <br>`;
+    resultado.innerHTML = `<strong>IMC:</strong> ${IMC.toFixed(2)} <br>`;
     
 }
 
