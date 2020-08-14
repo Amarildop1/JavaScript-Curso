@@ -5,9 +5,29 @@ let pesoInput = document.querySelector('#peso');
 let alturaInput = document.querySelector('#altura');
 
 
+/* Valida os dados de entrada */
+function verificaDadosDeEntrada(peso, altura){
+    if(!peso && !altura){
+        return resultado.innerHTML = "Preencha os dados!";
+    }else{
+        if(!peso){
+            return resultado.innerHTML = "Informe o peso!";
+        }
+        if(!altura){
+            return resultado.innerHTML = "Informe a altura!";
+        }
+    }
+}
+
+
 /* Calcula IMC */
 function calculaIMC(peso, altura){
-    return peso / (altura**2);
+    if(peso && altura){
+        return peso / (altura**2);
+    }
+    else{
+        verificaDadosDeEntrada(peso, altura);
+    }
 }
 
 
@@ -31,7 +51,7 @@ function classificacaoIMC(IMC){
         p.classList.add('Obesidade');
         p.innerHTML += " | Obesidade";
     }
-
+    
 }
 
 /* Ao clicar em enviar */
@@ -41,12 +61,11 @@ function recebeEventoForm(evento){
     let peso = parseFloat(pesoInput.value);
     let altura = parseFloat(alturaInput.value);
 
+    resultado.innerHTML = "";
+    
     const IMC = calculaIMC(peso, altura);
 
-    resultado.innerHTML = "";
-
     classificacaoIMC(IMC);
-
 }
 
 
