@@ -27,7 +27,7 @@ body {
 }
 
 .container .resultado{
-  padding: 1em 1em 1em 0;
+  margin-top: 2rem;
 }
 
 form input, form label, form button {
@@ -60,3 +60,24 @@ form button {
 form button:hover {
   background: var(--primary-color-darker);
 }
+
+.abaixoDoPeso{
+  background-color: gray;
+  padding: 1rem;
+}
+
+.pesoNormal{
+  background-color: rgb(86, 218, 97);
+  padding: 1rem;
+}
+
+.sobrepeso{
+  background-color: yellow;
+  padding: 1rem;
+}
+
+.Obesidade{
+  background-color: red;
+  padding: 1rem;
+}
+
