@@ -1,4 +1,5 @@
 #### Calculadora de IMC
 
-- Início:
-![](./screenshot01.png)
+Tela Inicial:
+
+![Tela de Início](./screenshot01.png)
