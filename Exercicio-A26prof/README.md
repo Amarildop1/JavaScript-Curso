@@ -29,7 +29,7 @@ Não preencher o formulário e tentar enviar:
 
 <img src="./screenshots/screenshot06-naoPreencheu.png" width="450" height="400">
 
-Sem preencher Altura ou peso:
+Sem preencher Altura ou Peso:
 
 <img src="./screenshots/screenshot07-faltaAltura.png" width="450" height="400">
 
@@ -37,4 +37,4 @@ Sem preencher Altura ou peso:
 
 Preencher com entrada inválida:
 
-<img src="./screenshots/sscreenshot09-pesoInvalido.png" width="450" height="400">
+<img src="./screenshots/screenshot09-pesoInvalido.png" width="450" height="400">
