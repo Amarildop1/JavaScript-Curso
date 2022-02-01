@@ -1,3 +1,3 @@
-#### Curso de JavaScript Moderno do básico ao avançado 2020 | Udemy
+#### Curso de JavaScript Moderno do básico ao avançado | Udemy
 
 Prof.: Luiz Otávio
